@@ -1,0 +1,65 @@
+@charset 'UTF-8';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+#theGame {
+  height: 80vh;
+  width: 100vw;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+}
+
+/* Table Styles
+--------------------------------------------------------------------- */
+#theGame table {
+  border: 1px solid black;
+  max-width: 50vw;
+  height: 40vh;
+  
+}
+
+#theGame h1 {
+  font-size: 2.5vw;
+  margin-bottom: 16px;
+}
+
+#theGame h3 {
+  opacity: 0.5;
+}
+
+#theGame td {
+  font-size: 1.8vw;
+  height: 7vh;
+  width: 4.84vw;
+  min-width: 20px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#theGame label {
+  margin-top: 20px;  
+}
+
+#theGame button {
+  padding: 1vw;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+
+
+
